@@ -1,0 +1,29 @@
+project:
+  type: website
+  output-dir: docs
+website:
+  title: "Prince Kumar"
+  navbar:
+    right:
+      - href: index.qmd
+        text: Home
+      - href: blogs.qmd
+        text: Blogs
+      - href: PRINCE_KUMAR_CV.pdf
+        text: CV
+    tools:
+      - icon: github
+        href: https://github.com/prince7003
+
+format:
+  html:
+    theme:
+      light: flatly
+      dark: cyborg
+    css: styles.css
+    toc: true
+execute:
+  freeze: auto
+
+
+

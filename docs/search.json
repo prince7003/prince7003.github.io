@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Prince Kumar",
+    "section": "",
+    "text": "Hi! I am Prince Kumar an M.Tech Computer Science & Engineering student at Indian Institute of Technology Gandhinagar.\nMy interest area lies on the intersection of Mathematics & Computer Science. It gives the power to unveil the hidden patterns and facts. I will be working on my thesis under the guidance of Prof. Nipun Batra this Spring.\nHoping to add sustainable solutions to make world better!"
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Prince Kumar",
+    "section": "Education",
+    "text": "Education\nB.Tech Mechanical Engineer | Techno Main Salt Lake | Kolkata | July 2017 - June 2021"
+  },
+  {
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "Prince Kumar",
+    "section": "Experience",
+    "text": "Experience\nAssociate System Engineer | TCS Ltd | Oct 2021 - June 2023"
+  },
+  {
+    "objectID": "posts/Image_Similarity.html",
+    "href": "posts/Image_Similarity.html",
+    "title": "How to check if two images are same are not.",
+    "section": "",
+    "text": "How to check if two images are same are not.\n\nimport numpy as np\nimport cv2\n\n\nimg2 = cv2.imread('MEDFUSE.jpg',0)\nimg1 = cv2.imread('Test_Image.jpg',0)\n \n\ndef mse(img1, img2):\n   h, w  = img1.shape\n   diff = cv2.subtract(img1, img2)\n   err = np.sum(diff**2)\n   mse = err/(float(h*w))\n   return mse, diff\n\n\nerror, diff = mse(img1, img2)\nprint(\"Image matching Error between the two images:\",error)\n# cv2.imwrite('difference_image_2.jpg', diff)\n\nImage matching Error between the two images: 71.15006839206238"
+  },
+  {
+    "objectID": "blogs.html",
+    "href": "blogs.html",
+    "title": "Blogs",
+    "section": "",
+    "text": "How to check if two images are same are not.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "Image_Similarity.html",
+    "href": "Image_Similarity.html",
+    "title": "How to check if two images are same are not.",
+    "section": "",
+    "text": "How to check if two images are same are not.\n\nimport numpy as np\nimport cv2\n\n\nimg2 = cv2.imread('MEDFUSE.jpg',0)\nimg1 = cv2.imread('Test_Image.jpg',0)\n \n\ndef mse(img1, img2):\n   h, w  = img1.shape\n   diff = cv2.subtract(img1, img2)\n   err = np.sum(diff**2)\n   mse = err/(float(h*w))\n   return mse, diff\n\n\nerror, diff = mse(img1, img2)\nprint(\"Image matching Error between the two images:\",error)\n# cv2.imwrite('difference_image_2.jpg', diff)\n\nImage matching Error between the two images: 71.15006839206238"
+  }
+]

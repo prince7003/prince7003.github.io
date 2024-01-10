@@ -1,0 +1,36 @@
+---
+title: "Prince Kumar"
+image: profile.jpg
+about:
+  template: trestles
+  image-shape: round
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: www.linkedin.com/in/princekumar88044
+    - icon: github
+      text: Github
+      href: https://github.com/prince7003
+
+---
+
+Hi! I am Prince Kumar an M.Tech Computer Science & Engineering student at Indian Institute of Technology Gandhinagar.
+
+My interest area lies on the intersection of Mathematics & Computer Science. 
+It gives the power to unveil the hidden patterns and facts.
+I will be working on my thesis under the guidance of [Prof. Nipun Batra](https://nipunbatra.github.io) this Spring. 
+
+Hoping to add sustainable solutions to make world better!
+
+## Education
+
+B.Tech Mechanical Engineer |
+Techno Main Salt Lake | Kolkata |
+ July 2017 - June 2021
+
+
+## Experience
+
+Associate System Engineer | 
+TCS Ltd | Oct 2021 - June 2023
+
